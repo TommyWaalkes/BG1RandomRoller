@@ -9,7 +9,7 @@ function getRndInteger(min, max) {
   }
 
 function getMainCharClass(){
-    let index = getRndInteger(0, mainCharClasses.length);
+    let index = getRndInteger(0, mainCharClasses.length -1);
     document.getElementById("MainChar").innerText = mainCharClasses[index];
 }
 
