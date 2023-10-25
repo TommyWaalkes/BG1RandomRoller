@@ -19,7 +19,7 @@ function getNPCs(){
     let npcs = []; 
     document.getElementById("Companions").innerHTML="";
     while(i < numNPCs){
-        let index = getRndInteger(0, bg1Npcs.length); 
+        let index = getRndInteger(0, bg1Npcs.length -1); 
         let npc = bg1Npcs[index];
         if(!npcs.includes(npc)){
             npcs.push(npc);
